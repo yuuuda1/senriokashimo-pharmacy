@@ -63,11 +63,25 @@
     <section id="fast-view" class="fast-view section">
       <img src="./assets/images/trees.svg" alt="" class="illust">
       <!-- Swiperコンテナ -->
-      <div class="swiper">
+      <div class="swiper swiper-pc">
         <div class="swiper-wrapper">
           <div class="swiper-slide"><img src="./assets/images/swiper001.png" alt=""></div>
           <div class="swiper-slide"><img src="./assets/images/swiper002.png" alt=""></div>
           <div class="swiper-slide"><img src="./assets/images/swiper003.png" alt=""></div>
+        </div>
+
+        <!-- ページネーション（ドット） -->
+        <div class="swiper-pagination"></div>
+
+        <!-- ナビゲーション矢印 -->
+        <div class="swiper-button-prev swiper-button"><i data-lucide="chevron-left"></i></div>
+        <div class="swiper-button-next swiper-button"><i data-lucide="chevron-right"></i></div>
+      </div>
+      <div class="swiper swiper-mobile">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./assets/images/swiper001_mobile.png" alt=""></div>
+          <div class="swiper-slide"><img src="./assets/images/swiper002_mobile.png" alt=""></div>
+          <div class="swiper-slide"><img src="./assets/images/swiper003_mobile.png" alt=""></div>
         </div>
 
         <!-- ページネーション（ドット） -->
@@ -120,6 +134,17 @@
               </div>
             </div>
           </div>
+          <div class="work-card">
+            <img src="./assets/images/card004.png" alt="">
+            <div class="word-content">
+              <div class="work-card-title">
+                介護施設向け調剤
+              </div>
+              <div class="work-card-message">
+                介護が必要な方やご高齢の方に向けて、ご自宅や施設へのお薬の配達や服薬支援を行っています。薬剤師が定期的に訪問し、飲み忘れ防止の工夫や体調の変化にも対応いたします。
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -166,6 +191,34 @@
               </div>
             </div>
           </div>
+          <div class="access-mobile">
+            <div class="business-hours-title">
+              <i data-lucide="map-pinned"></i>
+              <a>アクセス</a>
+            </div>
+            <div class="access-card">
+              <div class="access-card-header">
+                <div class="access-header-item">住所</div>
+              </div>
+              <div class="access-card-body">
+                <div class="access-address">
+                  <p>〒566-0001<br>
+                    大阪府摂津市千里丘1-3-16
+                </div>
+              </div>
+              <div class="access-card-header">
+                <div class="access-header-item">地図</div>
+              </div>
+              <div class="access-card-body">
+                <div class="access-map">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.4967293944105!2d135.5490466763144!3d34.793442878230124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e30c676ce41f%3A0x69d724fc170c7798!2z5Y2D6YeM5LiY5LiL6Jas5bGA!5e0!3m2!1sja!2sjp!4v1752899863871!5m2!1sja!2sjp"
+                    width="280" height="160" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -178,8 +231,16 @@
         </div>
         <div class="news-list">
           <div class="news-item">
-            <span>2025.07.19</span>
-            <span>ホームページ開設のお知らせ</span>
+            <a href="./news-002.html">
+              <span>2025.08.01</span>
+              <span>医療DX推進体制整備加算について</span>
+            </a>
+          </div>
+          <div class="news-item">
+            <a href="./news-001.html">
+              <span>2025.08.01</span>
+              <span>ホームページ開設のお知らせ</span>
+            </a>
           </div>
         </div>
       </div>
